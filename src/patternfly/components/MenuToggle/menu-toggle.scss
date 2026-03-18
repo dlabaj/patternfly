@@ -99,6 +99,9 @@
   --#{$menu-toggle}--m-full-height--PaddingInlineEnd: var(--pf-t--global--spacer--control--horizontal--spacious);
   --#{$menu-toggle}--m-full-height--PaddingInlineStart: var(--pf-t--global--spacer--control--horizontal--spacious);
 
+  // Form (for use in forms)
+  --#{$menu-toggle}--m-form--BorderRadius: var(--pf-t--global--border--radius--control--form-element);
+
   // Split button, child
   --#{$menu-toggle}--m-split-button--child--disabled--Color: var(--pf-t--global--text--color--on-disabled);
   --#{$menu-toggle}--m-split-button--child--disabled--BackgroundColor: var(--pf-t--global--background--color--disabled--default);
@@ -288,6 +291,10 @@
 
   &.pf-m-full-width {
     width: 100%;
+  }
+
+  &.pf-m-form {
+    --#{$menu-toggle}--BorderRadius: var(--#{$menu-toggle}--m-form--BorderRadius);
   }
 
   &.pf-m-plain {
