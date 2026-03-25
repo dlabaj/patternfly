@@ -74,7 +74,7 @@
   {{#ifAny menu-toggle--IsPlain @partial-block}}
     {{#if menu-toggle--HasKebab}}
       {{#> menu-toggle-icon}}
-        <i class="fas fa-{{ternary menu-toggle--icon menu-toggle--icon 'ellipsis-v'}}" aria-hidden=true></i>
+        {{{pfIcon "rh-ui-ellipsis-vertical-fill"}}}
       {{/menu-toggle-icon}}
     {{/if}}
     {{!-- TODO: refactor this logic --}}
